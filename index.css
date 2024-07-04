@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+    font-family: cursive;
+}
+
+#navbar{
+    display: flex;
+    height: 50px;
+    background-color: Black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    /* padding-top: 15px; */
+} 
+a{
+    /* margin-right: 200px; */
+    margin-right: 15%;
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+button{
+    color: white;
+    background-color: orange;
+    /* width: 5%; */
+}
+
+#logo{
+    color: rgb(255, 189, 67);
+    display: inline;
+    padding: 6px;
+}
+/* #searchbutton{
+} */
+#buy{
+    background-color: greenyellow;
+    align-items: center;
+    text-align: center;
+    color: black;
+    width: 60px;
+}
+#header1{
+    text-align: center;
+    font-family: cursive;
+    margin-top: 20%;
+    
+
+}
+
+
+#under{
+    color: black;
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#p{
+    padding-left: 10px;
+}
+
+
