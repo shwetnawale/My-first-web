@@ -8,15 +8,17 @@
 #navbar{
     display: flex;
     height: 50px;
-    background-color: Black;
+    background-color: gray;
     color: white;
     text-align: center;
     align-items: center;
+    width: 100%;
     /* padding-top: 15px; */
 } 
 a{
     /* margin-right: 200px; */
     margin-right: 15%;
+    width: 100%;
     display: flex;
     color: white;
     text-decoration: none;
