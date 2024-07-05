@@ -3,27 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon</title>
+    <title>&hearts;Amazon</title>
+    <script>
+        function showInput() {
+            document.getElementById('inputText').style.display = 'inline';
+            document.getElementById('searchButton').style.display = 'none';
+            document.getElementById('inputText').focus();
+        }
+
+        function handleEnter(event) {
+            if (event.key === 'Enter') {
+                window.location.href = 'mycart.html';
+            }
+        }
+    </script>
+    
     <link rel="stylesheet" href="index.css">
+    <link rel="icon"  href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTabrl2VTWfpp7MbwZp6gVKWPv5C_3Xkx-VlQ&s">
 </head>
 <body>
-    <div id="navbar">
+    <header>
+
+        <div id="navbar">
         <a  href="index.html"    id="logo">Amazon.in</a>
         <a  href="account.html" >  Account</a>
         <a  href="contact.html" >  Contact us</a>
         <a  href="mycart.html" >  My Cart</a>
-         <input id="searchbar" placeholder="search amazon.in" >
-         <button>Search</button>
-    </div>
+        <button id="searchButton" onclick="showInput()">Search</button>
+        <input type="text" id="inputText" onkeydown="handleEnter(event)" placeholder="Enter text and press Enter">
+    
+        </div>
+    </header>
     <br>
+    <div>
 
-    <p id="p">
-        Click one my on ⬆
-    </p>
+        
+        <p id="p">
+            Click one by one ⬆
+        </p>
+        
+        <h1  id="header1">
+            This is Main Page 
+        </h1>
+    </div>
+    <!-- <br st> -->
+    <footer class="footer">
+        &hearts; by Amazon
+        <br>
+        &#169; copyright
 
-    <h1  id="header1">
-        This is Main Page 
-    </h1>
+
+        
+    </footer>
     
 </body>
 </html>
