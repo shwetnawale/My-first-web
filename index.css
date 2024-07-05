@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     font-weight: 900;
-    font-family: fantasy;
+    font-family: cursive;
 }
 
 #navbar{
@@ -55,7 +55,7 @@ button{
     text-align: center;
     /* align-items: center; */
     font-family: cursive;
-    margin: 10%;
+    margin: 30%;
     /* display: inline-block; */
     /* height: 300px; */
     /* width: auto; */
