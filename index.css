@@ -50,12 +50,16 @@ button{
     text-align: center;
     color: black;
     width: 60px;
+    /* color: black; */
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 20px;
 }
 #header1{
     text-align: center;
     /* align-items: center; */
     font-family: cursive;
-    margin: 30%;
+    margin: 10%;
     /* display: inline-block; */
     /* height: 300px; */
     /* width: auto; */
@@ -64,13 +68,9 @@ button{
 
 }
 
+   
 
-#under{
-    color: black;
-    font-family: cursive;
-    font-weight: 900;
-    font-size: 20px;
-}
+ 
 
 #p{
     padding-left: 10px;
