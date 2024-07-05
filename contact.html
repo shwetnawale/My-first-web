@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon</title>
+    <script>
+        function showInput() {
+            document.getElementById('inputText').style.display = 'inline';
+            document.getElementById('searchButton').style.display = 'none';
+            document.getElementById('inputText').focus();
+        }
+
+        function handleEnter(event) {
+            if (event.key === 'Enter') {
+                window.location.href = 'mycart.html';
+            }
+        }
+    </script>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -12,8 +25,9 @@
         <a  href="account.html" >  Account</a>
         <a  href="contact.html" >  Contact us</a>
         <a  href="mycart.html" >  My Cart</a>
-         <input id="searchbar" placeholder="search amazon.in" >
-         <button>Search</button>
+        <button id="searchButton" onclick="showInput()">Search</button>
+        <input type="text" id="inputText" onkeydown="handleEnter(event)" placeholder="Enter text and press Enter">
+
     </div>
 
     <header id="header1">
@@ -22,5 +36,13 @@
         <h4>plz contact on hello@ac.in</h4>
 
     </header>
+    <footer class="footer">
+        &hearts; by Amazon
+        <br>
+        &#169; copyright
+
+
+        
+    </footer>
 </body>
 </html>
