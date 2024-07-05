@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -7,18 +8,18 @@
 
 #navbar{
     display: flex;
-    height: 50px;
-    background-color: gray;
+    /* height: 100%; */
+    background-color: black;
     color: white;
     text-align: center;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
     /* padding-top: 15px; */
 } 
 a{
     /* margin-right: 200px; */
     margin-right: 15%;
-    width: 100%;
+    width: 5%;
     display: flex;
     color: white;
     text-decoration: none;
@@ -28,7 +29,9 @@ button{
     background-color: orange;
     /* width: 5%; */
 }
-
+#inputText {
+    display: none;
+}
 #logo{
     color: rgb(255, 189, 67);
     display: inline;
@@ -36,6 +39,11 @@ button{
 }
 /* #searchbutton{
 } */
+
+#searchbar{
+    display: none;
+
+}
 #buy{
     background-color: greenyellow;
     align-items: center;
@@ -45,8 +53,13 @@ button{
 }
 #header1{
     text-align: center;
+    /* align-items: center; */
     font-family: cursive;
-    margin-top: 20%;
+    margin: 10%;
+    /* display: inline-block; */
+    /* height: 300px; */
+    /* width: auto; */
+    /* align-items: center; */
     
 
 }
@@ -62,5 +75,14 @@ button{
 #p{
     padding-left: 10px;
 }
-
-
+/* br{
+    height: 100px;
+} */
+.footer{
+    background-color: gray;
+    height: 300px;
+    align-content: center;
+    /* align-items: center; */
+    text-align: center;
+    font-size: 50px;
+}
